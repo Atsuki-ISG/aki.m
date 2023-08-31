@@ -1,4 +1,5 @@
 <?php
+define("TAX", 1.1);
 
 $products = [
     "鉛筆" => 100,
@@ -7,8 +8,7 @@ $products = [
 ];
 
 function getTaxIncludedPrice($price) {
-    $tax = 1.1;
-    $taxIncludedPrice = $price * $tax;
+    $taxIncludedPrice = $price * TAX;
     return $taxIncludedPrice;
 }
 
