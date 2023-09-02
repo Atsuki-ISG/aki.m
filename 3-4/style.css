@@ -1,0 +1,12 @@
+body {
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    border-bottom: 2px solid white;
+}
+::placeholder {
+    color: gray;
+}
