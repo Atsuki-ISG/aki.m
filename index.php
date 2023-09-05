@@ -9,6 +9,7 @@
 <body>
   <!-- ①フォームを作成しましょう -->
   <form action="result.php" method="POST">
+    <?php date_default_timezone_set('Asia/Tokyo'); ?>
     <input type="hidden" name="time" value="<?php echo date ('Y-m-d H:i:s', time()); ?>"/>
     <p>好きな名前を入れてください</p>
     <input type="text" name="my_name" />
@@ -17,7 +18,6 @@
     <input type="text" name="number" />
     <br>
     <input type="submit" valie="送信" />
-    <?php echo date ('Y-m-d H:i:s', time()); ?>
   <!-- ここにフォームを記述してください -->
   </form>
 </body>
