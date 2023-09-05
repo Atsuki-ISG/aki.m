@@ -1,24 +1,18 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Practice2</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- ①フォームを作成しましょう -->
-  <form action="result.php" method="POST">
-    <?php date_default_timezone_set('Asia/Tokyo'); ?>
-    <input type="hidden" name="time" value="<?php echo date ('Y-m-d H:i:s', time()); ?>"/>
-    <p>好きな名前を入れてください</p>
-    <input type="text" name="my_name" />
-    <br>
-    <p>1~6の中で好きな数字を入れてください</p>
-    <input type="text" name="number" />
-    <br>
-    <input type="submit" valie="送信" />
-  <!-- ここにフォームを記述してください -->
-  </form>
+    <h1>2章チェックテスト</h1>
+    <!--名前を入力してquestion.phpに移動するフォームを作成-->
+    <form action="question.php" method="POST">
+        <input placeholder="名前を入力してください" type="text" name="my_name" />
+        <input type="submit" value="テスト開始" />
+    </form>
 </body>
 </html>
