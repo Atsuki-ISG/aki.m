@@ -1,4 +1,4 @@
-<?php
+
 define("TAX", 1.1);
 
 
