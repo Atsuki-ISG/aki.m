@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.header {
+    display: flex;
+}
+.logo {
+    width: 200px;
+    height: 120px; 
+    background-color: #abb8e6;
+}
+
+.welcome {
+    background-color: #87ceed;
+    height: 40px;
+    width: 800px;
+    text-align: right;
+    padding-top: 20px;
+}
+.logintime {
+    background-color: #00ffff;
+    height: 40px;
+    width: 800px;
+    text-align: right;
+    padding-top: 20px;
+}
+.main {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table {
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.columns {
+    background-color: #87ceed;
+}
+.rows {
+    background-color: #e0ffff;    
+}
+.footer {
+    background-color: #00ced1;
+    width: 1000px;
+    height: 120px;
+}
