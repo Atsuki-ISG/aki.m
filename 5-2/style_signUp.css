@@ -1,0 +1,33 @@
+.signUp {
+    margin: 50px 0 0 200px;
+    padding: 0;
+}
+.signUp h1 {
+    display: inline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+.name {
+    width: 400px;
+    height: 30px;
+    border-radius : 5px;
+    border : 1px solid #999999;
+    margin-bottom: 15px;
+}
+.password {
+    width: 400px;
+    height: 30px;
+    border-radius : 5px;
+    border : 1px solid #999999;
+    margin-bottom: 15px;
+}
+.submit {
+    width: 200px;
+    height: 30px;
+    border-radius : 5px;
+    text-align : center;
+    background : #007fff;
+    color: #ffffff;
+    border : 2px solid #007fff;
+}
