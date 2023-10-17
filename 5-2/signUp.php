@@ -15,7 +15,8 @@ if(isset($_POST['signUp'])) {
         $username = $_POST['name'];
         $password = $_POST['password'];
     } else {
-        echo 'ログインに失敗しました。';
+        echo '登録に失敗しました';
+        exit;
     }
     $pdo = db_connect();
     try {
@@ -31,6 +32,8 @@ if(isset($_POST['signUp'])) {
         echo 'error'.$e->getMassage();
         die();
     }
+} else {
+
 }
 ?>
 

@@ -1,0 +1,48 @@
+.main {
+    margin: 50px 0 0 50px;
+    padding: 0;
+}
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+.btn_newBook {
+    width: 100px;
+    height: 30px;
+    border-radius : 5px;
+    text-align : center;
+    background : #007fff;
+    color: #ffffff;
+    border : 2px solid #007fff;
+}
+.btn_logout {
+    width: 100px;
+    height: 30px;
+    border-radius : 5px;
+    text-align : center;
+    background : #808080;
+    color: #ffffff;
+    border : 2px solid #808080;
+}
+.table-top {
+    background-color: #d3d3d3;
+}
+table, tr, td {
+    margin-top: 20px;
+    width: 700px;
+    height: 40px;
+    text-align : center;
+    border-collapse: collapse;
+    border:1px solid #333;
+}
+.btn_delete {
+    width: 100px;
+    height: 30px;
+    border-radius : 2px;
+    padding: 5px 15px;
+    text-align : center;
+    background : #ff0000;
+    color: #ffffff;
+    border : 2px solid #ff0000;
+}
